@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(204, 198, 198);
+    width: 100%;
+    height: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    position: sticky;
+    top: 0rem;
+}
+
+.sidebar nav{
+    padding: 10px;
+    position: relative;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 18x;
+    padding: 22px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.navContainer{
+    display: flex;
+    position: sticky;
+    top: 1rem;
+    margin-left: 20px;
+    bottom: 100rem;
+    
+}
+.navContainer li a{
+    text-decoration: none;
+    color: rgb(245, 12, 12);
+}
+.main{
+    /*background-color: rgb(25, 25, 20);*/
+    width: 100%;
+    display: flex;
+    
+}
+.container{
+    background-image: url(../image/bookimageseventeen.jpg);
+    margin-top: 0px;
+    width: 100%;
+
+}
+.infoContainer{
+    /*background-color:pink;*/
+    height:15vh;
+    width: 90vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    height: 58vh;
+
+    
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.button{
+    margin-top: 34px;
+    padding: 0em;
+}
+.button button{
+    padding: 5px 5px;
+    border-radius: 22px;
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin:0 3px;
+}
+.button button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.navContainer button{
+    /*padding: 5px 5px;*/
+    /*border-radius: 22px;*/
+    color: rgba(174, 170, 170, 0.975);
+    background-color: rgb(14, 15, 15);
+    font-weight: bold;
+    font-size: 15px;
+    margin:0 3px;
+
+    
+}
+.navContainer button:hover{
+    background-color: rgb(22, 19, 19);
+    color: white;
+
+    
+}
+
+.bookitem{
+    margin: 20px;
+    
+    margin-bottom: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+
+}
+.Bookcontainer{
+
+    background-image: url(../image/bookimageseventeen.jpg);
+    margin-top: 0px;
+    width: 100%;
+
+
+}
+
+.contentt{
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(244, 234, 235);
+}
+
+
+
+.content{
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(244, 234, 235);
+}
+.Bookcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+    text-align: center;
+    color: rgb(216, 220, 184);
+    font-weight: bold;
+}
+.bookitem p{
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(216, 220, 184);
+    
+}
+.bookitem h2{
+    text-align: center;
+    color: rgb(216, 220, 184);
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.bookitemm h2{
+    text-align: center;
+    color: rgb(216, 220, 184);
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bookitem h3{
+    text-align: center;
+    color: rgb(216, 220, 184);
+    margin-bottom: 20px;
+}
+
+.bookitem h4{
+    font-family: 'Fira Sans', sans-serif; 
+    color: rgb(216, 220, 184);
+   
+    font-size: 15px;
+}
+.bookitem h5{
+    margin-bottom: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(216, 220, 184);
+    
+    font-size: 15px;
+}
+
+.projectContainer{
+    background-image: url(../image/projectimagefive.jpg);
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.projectContainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+    text-align: center;
+    color: rgb(216, 220, 184);
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+.projectItem h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+    text-align: center;
+    color: rgb(216, 220, 184);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.projectItemtwo h3{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+    text-align: center;
+    color: rgb(216, 220, 184);
+    font-size: 20px;
+}
+.projectItem p{
+    color: azure;
+    margin-top: 10px;
+}
+.projectItemtwo p{
+    color: azure;
+    margin-top: 10px;
+}
+.text{
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(45, 6, 6);
+}
+.moreText{
+    display: none;
+}
+.read-more-btn{
+    cursor: pointer;
+}
+.text.show-more .moreText{
+    display: inline;
+}
+.text.text.show-more .dots{
+    display: none;
+}
+.hide{
+    display: none;
+}
+
+
+
