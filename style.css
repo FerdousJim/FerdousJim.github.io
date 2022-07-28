@@ -47,7 +47,7 @@
     
 }
 .container{
-    background-image: url(../image/bookimageseventeen.jpg);
+    background-image: url(../image/projectimagefive.jpg);
     margin-top: 0px;
     width: 100%;
 
@@ -74,13 +74,16 @@
 }
 .hello{
     font-size: 30px;
+    color: white;
 }
 .name{
     font-size: 30px;
     font-weight: bold;
+    color: white;
 }
 .about{
     font-size: 30px;
+    color: white;
 }
 .button{
     margin-top: 34px;
@@ -127,7 +130,7 @@
 }
 .Bookcontainer{
 
-    background-image: url(../image/bookimageseventeen.jpg);
+    background-image: url(../image/projectimagefive.jpg);
     margin-top: 0px;
     width: 100%;
 
